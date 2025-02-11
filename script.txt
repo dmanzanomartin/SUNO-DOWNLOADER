@@ -1,0 +1,3 @@
+//  open your javascript console and paste this
+copy([...$('[role="grid"]')[Object.keys($('[role="grid"]')).filter(x => x.startsWith('__reactProps'))[0]].children[0].props.values[0][1].collection].filter(x => x.value.audio_url).map(x => x.value.audio_url).join(' '))
+// now you have a list of mp3 urls directly in your clipboard that you can pass to wget or a url downloader
