@@ -1,14 +1,13 @@
 {
   "name": "sunodownloader",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Sunodownloader", "SunoDownloader", "Suno", "Sunodownloader.com"],
+  "author": "David Manzano Martín",
+  "license": "CC BY-NC-ND 4.0 International",
   "description": "",
   "dependencies": {
     "fluent-ffmpeg": "^2.1.3",
