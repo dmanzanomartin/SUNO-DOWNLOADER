@@ -55,7 +55,9 @@ copy([...$('[role="grid"]')[Object.keys($('[role="grid"]')).filter(x => x.starts
 
 ## License
 
-This project is distributed under the ISC license. See `package.json` for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Use is permitted, but not for commercial purposes and without modifications.
+
+For more information, visit [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ## Contributing
 
@@ -100,7 +102,7 @@ Este proyecto permite descargar archivos de audio en formato .mp3 desde URLs pro
 2. Ejecuta el comando: `node index.js`.
 3. Observa el progreso de descarga y conversión en la consola.
 
-**Extracción de URLs directamente desde la web (Español)**
+**Extracción de URLs directamente desde la web**
 
 Si prefieres no usar el archivo `input.txt`, puedes obtener las URLs de los archivos MP3 directamente desde la interfaz web. Para ello, sigue estos pasos:
 
@@ -113,20 +115,6 @@ copy([...$('[role="grid"]')[Object.keys($('[role="grid"])').filter(x => x.starts
 ```
 
 4. El comando copiará en el portapapeles todas las URLs de archivos MP3, que luego podrás utilizar con herramientas como `wget` para descargarlas.
-
-**Extracting URLs directly from the web (English)**
-
-If you prefer not to use the `input.txt` file, you can obtain the MP3 URLs directly from the web interface. Follow these steps:
-
-1. Open the webpage that lists the MP3 files.
-2. Open your browser's developer console (e.g., F12 or Ctrl+Shift+I in most browsers).
-3. Copy and paste the following command into the console and press Enter:
-
-```javascript
-copy([...$('[role="grid"]')[Object.keys($('[role="grid"]')).filter(x => x.startsWith('__reactProps'))[0]].children[0].props.values[0][1].collection].filter(x => x.value.audio_url).map(x => x.value.audio_url).join(' '))
-```
-
-4. This will copy all MP3 file URLs to your clipboard, which you can then use with tools like `wget` to download them.
 
 ## Estructura del Proyecto
 
@@ -147,6 +135,12 @@ Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cambi
 ## Contacto
 
 Si encuentras algún problema o tienes alguna duda, no dudes en abrir un issue en GitHub.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional. Se permite su uso, pero no su uso comercial ni la modificación del contenido.
+
+Para más información, visita [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ---
 
