@@ -9,8 +9,8 @@ const data = fs.readFileSync('input.txt', 'utf8');
 const urls = data.split(' ');
 
 // Download and conversion folders
-const downloadFolder = path.join(__dirname, 'downloads');
-const convertFolder = path.join(__dirname, 'outputs');
+const downloadFolder = path.join(__dirname, './../downloads');
+const convertFolder = path.join(__dirname, './../outputs');
 
 if (!fs.existsSync(downloadFolder)) {
   fs.mkdirSync(downloadFolder, { recursive: true });
