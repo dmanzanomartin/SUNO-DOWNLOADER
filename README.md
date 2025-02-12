@@ -28,7 +28,7 @@ This project allows you to download audio files in MP3 format from URLs provided
 ## Usage
 
 1. Place the MP3 file URLs in the `input.txt` file, separated by spaces.
-2. Run the command: `node index.js`.
+2. Run the command: `npm run start`.
 3. Monitor the download and conversion progress in the console.
 
 **Extracting URLs directly from the web**
@@ -99,7 +99,7 @@ Este proyecto permite descargar archivos de audio en formato .mp3 desde URLs pro
 ## Uso
 
 1. Coloca las URLs de los archivos MP3 en el archivo `input.txt`, separadas por espacios.
-2. Ejecuta el comando: `node index.js`.
+2. Ejecuta el comando: `npm run start`.
 3. Observa el progreso de descarga y conversión en la consola.
 
 **Extracción de URLs directamente desde la web**
